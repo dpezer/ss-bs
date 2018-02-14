@@ -1,0 +1,12 @@
+### OSX template
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Node modules and sass ###
+.sass-cache
+npm/node_modules
+
+# Ignore compiled files
+css/style.css.map
+css/bootstrap/*

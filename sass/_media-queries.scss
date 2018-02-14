@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Media queries mixins
+   ========================================================================== */
+
+/* Extra Small Devices, Phones */
+@mixin min-xs {
+  @include media-breakpoint-up(xs) {
+    @content;
+  }
+}
+
+/* Small Devices, Tablets */
+@mixin min-sm {
+  @include media-breakpoint-up(sm) {
+    @content;
+  }
+}
+
+/* Medium Devices, Desktops */
+@mixin min-md {
+  @include media-breakpoint-up(md) {
+    @content;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@mixin min-lg {
+  @include media-breakpoint-up(lg) {
+    @content;
+  }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@mixin max-lg {
+  @include media-breakpoint-down(lg) {
+    @content;
+  }
+}
+
+/* Medium Devices, Desktops */
+@mixin max-md {
+  @include media-breakpoint-down(md) {
+    @content;
+  }
+}
+
+/* Small Devices, Tablets */
+@mixin max-sm {
+  @include media-breakpoint-down(sm) {
+    @content;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@mixin max-xs {
+  @include media-breakpoint-down(xs) {
+    @content;
+  }
+}
+
+/* Max custom */
+@mixin max-custom($max-width) {
+  @media only screen and (max-width: $max-width){
+    @content;
+  }
+}
+
+/* Min custom */
+@mixin min-custom($min-width) {
+  @media only screen and (min-width: $min-width){
+    @content;
+  }
+}
+
+/* Min-Max custom */
+@mixin min-max-custom($min-width, $max-width) {
+  @media only screen and (min-width: $min-width) and (max-width: $max-width) {
+    @content;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "messages": {
+    "error": {
+      "title": "Error",
+      "message": "Gulp reported error: <%= error.message %>!"
+    },
+    "success": {
+      "title": "Success",
+      "message": "Gulp tasks completed successfully!"
+    }
+  },
+  "sass": {
+    "src": "../sass/**/*.scss",
+    "destination": "../css",
+    "sourcemaps": "../css",
+    "config": {
+      "style": "compressed",
+      "errLogToConsole": true,
+      "includePaths": []
+    },
+    "autoprefixer": [
+      "last 2 versions",
+      "> 1%",
+      "ie 9",
+      "ie 10"
+    ]
+  },
+  "css": {
+    "src": "../css/style.css",
+    "dest": "../css"
+  }
+}
