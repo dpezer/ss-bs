@@ -26,6 +26,6 @@
             "css",
             "javascript"
         ]
-	},
+    },
     "minimum-stability": "dev"
 }
