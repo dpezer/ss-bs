@@ -14,5 +14,9 @@ module.exports = function(gulp, $, config, messages) {
   	gulp.watch(config.sass.src, ['styles']);
     // Watch for min css
     gulp.watch(config.css.src, ['minify-css']);
+    // Concat
+    gulp.watch(config.scripts.src, ['scripts']);
+    // Watch for min js
+    gulp.watch(config.js.src, ['minify-js']);
   });
 };

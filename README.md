@@ -1,19 +1,19 @@
-# Bootstrap 4.0.0 starter theme for SilverStripe 4.x
+# Bootstrap 4.1.3 starter theme for SilverStripe 4.2.x
 
 ##### This is [Bootstrap 4](https://v4-alpha.getbootstrap.com/) starter theme for [SilverStripe](http://silverstripe.org/) built by [Darjan Pezer](mailto:darjan@pezer.eu).
 ###### Version: 2.2
 
-![Bootstrap 4.0 theme for SilverStripe 4](https://raw.githubusercontent.com/dpezer/ss-bs/master/ss-bs.png)
+![Bootstrap 4.1.3 theme for SilverStripe 4](https://raw.githubusercontent.com/dpezer/ss-bs/master/ss-bs.png)
 
 ### Requirements
-* [SilverStripe](http://silverstripe.org/) 4.0 or above (both framework and cms)
+* [SilverStripe](http://silverstripe.org/) 4.2.x or above (both framework and cms)
 * [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/package/plugin) (Node is used for dev tasks such as compiling sass, bundling and minifying js, etc. Npm is used for package management for node components.)
 * [Gulp](http://gulpjs.com/) (install gulp with command `npm install -g gulp`)
 
 ### Theme includes
-* [Bootstrap](https://v4-alpha.getbootstrap.com/) v4.0.0 (Sass source files)
+* [Bootstrap](https://v4-alpha.getbootstrap.com/) v4.1.3 (Sass source files)
 * [jQuery](https://jquery.com/) 3.3.1
-* [Popper.js](https://jquery.com/) 1.12.9
+* [Popper.js](https://popper.js.org/) 1.14.5
 
 ### Installation Instructions
 
@@ -21,7 +21,7 @@
 
  * ... copy the theme into the `themes/` directory of your SilverStripe project.  If you've named it correctly, there should be a directory called `themes/ss-bs/templates`.
 
- * Add the following to your `mysite/_config/theme.yml` file.
+ * Add the following to your `app/_config/theme.yml` file.
     
     ```yaml
     ---
@@ -29,12 +29,13 @@
     ---
     SilverStripe\View\SSViewer:
       themes:
+        - '$public'
         - 'ss-bs'
         - '$default'
     ```
 
 
-* Add the following to your `mysite/code/PageController.php` file inside `init()` function:
+* Add the following to your `app/src/PageController.php` file inside `init()` function:
 
     ```php
     Requirements::combine_files(
@@ -46,6 +47,17 @@
       )
     );
     ```
+* Expose theme folder with composer - add following code to your `composer.json` file under `"extra"` section:
+	
+	```yml
+	"extra": {
+        "expose": [
+	      "themes/ss-bs/"
+	    ]
+    }
+	```
+
+* Run `composer vendor-expose` to expose theme folder.
 
 ### Compiling CSS
 

@@ -1,7 +1,7 @@
 {
-  "name": "ss-bs",
-  "version": "2.2.0",
-  "description": "Gulp starter theme for SilverStripe",
+  "name": "gulpstarter",
+  "version": "2.2.1",
+  "description": "Gulp starter theme",
   "main": "gulpfile.js",
   "scripts": {
     "setup": "npm install",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dpezer/ss-bs"
+    "url": "https://github.com/dpezer/gulpstarter"
   },
   "author": {
     "name": "Darjan Pezer",
@@ -17,21 +17,22 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dpezer/ss-bs/issues"
+    "url": "https://github.com/dpezer/gulpstarter/issues"
   },
-  "homepage": "https://github.com/dpezer/ss-bs",
+  "homepage": "https://github.com/dpezer/gulpstarter",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-cache": "^1.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-load-subtasks": "^1.1.2",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-clean-css": "^3.9.2"
+    "gulp-clean-css": "^3.10.0",
+    "gulp-uglify": "^3.0.1"
   }
 }

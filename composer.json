@@ -1,7 +1,7 @@
 {
     "name": "dpezer/ss-bs",
-    "version": "2.2.0",
-    "description": "SilverStripe Bootstrap 4 starter theme",
+    "version": "2.2.1",
+    "description": "Bootstrap 4 starter theme for SilverStripe 4.2.x",
     "type": "silverstripe-theme",
     "keywords": ["silverstripe", "theme", "bootstrap", "bootstrap 4", "sass", "gulp", "scss"],
     "license": "BSD-3-Clause",
@@ -9,7 +9,7 @@
         {
             "name": "Darjan Pezer",
             "email": "darjan@pezer.eu",
-            "homepage": "http://pezer.eu",
+            "homepage": "https://pezer.eu",
             "role": "Developer"
         }
     ],
@@ -18,7 +18,7 @@
     },
     "require": {
         "composer/installers": "*",
-        "silverstripe/framework": ">=4.0",
+        "silverstripe/framework": ">=4.2",
         "dpezer/ss-bs": "dev-master"
     },
     "minimum-stability": "dev"
