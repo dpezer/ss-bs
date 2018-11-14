@@ -21,5 +21,11 @@
         "silverstripe/framework": ">=4.2",
         "dpezer/ss-bs": "dev-master"
     },
+    "extra": {
+        "expose": [
+            "css",
+            "javascript"
+        ]
+	},
     "minimum-stability": "dev"
 }

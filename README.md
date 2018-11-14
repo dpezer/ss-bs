@@ -47,17 +47,8 @@
       )
     );
     ```
-* Expose theme folder with composer - add following code to your `composer.json` file under `"extra"` section:
-	
-	```yml
-	"extra": {
-        "expose": [
-	      "themes/ss-bs/"
-	    ]
-    }
-	```
 
-* Run `composer vendor-expose` to expose theme folder.
+* Run `composer vendor-expose` to expose theme folder if needed.
 
 ### Compiling CSS
 
