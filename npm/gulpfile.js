@@ -56,11 +56,4 @@ var messages = {
 $.loadSubtasks('gulp/tasks/*.js', $, config, messages);
 
 // Default Gulp task to Run
-gulp.task('default', function() {
-	gulp.start('build', 'watch');
-});
-
-// Gulp build task to run all tasks just once
-gulp.task('build', function() {
-	gulp.start('styles', 'minify-css');
-});
+gulp.task('default', gulp.series ('watch', gulp.parallel('styles', 'minify-css')));

@@ -1,6 +1,6 @@
 {
   "name": "gulpstarter",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Gulp starter theme",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "author": {
     "name": "Darjan Pezer",
-    "url": "http://pezer.eu"
+    "url": "https://pezer.eu"
   },
   "license": "MIT",
   "bugs": {
@@ -21,18 +21,18 @@
   },
   "homepage": "https://github.com/dpezer/gulpstarter",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-cache": "^1.0.2",
+    "gulp-cache": "^1.1.1",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-load-subtasks": "^1.1.2",
     "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-clean-css": "^3.10.0",
-    "gulp-uglify": "^3.0.1"
+    "gulp-clean-css": "^4.0.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
