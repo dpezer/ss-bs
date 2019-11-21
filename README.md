@@ -40,11 +40,11 @@
     ```php
     Requirements::combine_files(
       'scripts.combined.js',
-      array(
+      [
         'themes/ss-bs/javascript/jquery/jquery-3.4.1.js',
         'themes/ss-bs/javascript/popper/popper.js',
         'themes/ss-bs/javascript/bootstrap/bootstrap.js'
-      )
+      ]
     );
     ```
 
