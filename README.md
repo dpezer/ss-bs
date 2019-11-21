@@ -1,6 +1,6 @@
 # Bootstrap 4.3.1 starter theme for SilverStripe 4.x
 
-##### This is [Bootstrap 4](https://v4-alpha.getbootstrap.com/) starter theme for [SilverStripe](http://silverstripe.org/) built by [Darjan Pezer](mailto:darjan@pezer.si).
+##### This is [Bootstrap 4](https://getbootstrap.com/) starter theme for [SilverStripe](http://silverstripe.org/) built by [Darjan Pezer](mailto:darjan@pezer.si).
 ###### Version: 2.2
 
 ![Bootstrap 4.3.1 theme for SilverStripe 4](https://raw.githubusercontent.com/dpezer/ss-bs/master/ss-bs.png)
@@ -11,8 +11,8 @@
 * [Gulp](http://gulpjs.com/) (install gulp with command `npm install -g gulp`)
 
 ### Theme includes
-* [Bootstrap](https://v4-alpha.getbootstrap.com/) v4.3.1 (Sass source files)
-* [jQuery](https://jquery.com/) 3.3.1
+* [Bootstrap](https://getbootstrap.com/) v4.3.1 (Sass source files)
+* [jQuery](https://jquery.com/) 3.4.1
 * [Popper.js](https://popper.js.org/) 1.14.7
 
 ### Installation Instructions
@@ -41,7 +41,7 @@
     Requirements::combine_files(
       'scripts.combined.js',
       array(
-        'themes/ss-bs/javascript/jquery/jquery-3.3.1.js',
+        'themes/ss-bs/javascript/jquery/jquery-3.4.1.js',
         'themes/ss-bs/javascript/popper/popper.js',
         'themes/ss-bs/javascript/bootstrap/bootstrap.js'
       )
