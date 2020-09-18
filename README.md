@@ -1,9 +1,9 @@
-# Bootstrap 4.3.1 starter theme for SilverStripe 4.x
+# Bootstrap 4.5.2 starter theme for SilverStripe 4.x
 
 ##### This is [Bootstrap 4](https://getbootstrap.com/) starter theme for [SilverStripe](http://silverstripe.org/) built by [Darjan Pezer](mailto:darjan@pezer.si).
-###### Version: 2.2
+###### Version: 2.3
 
-![Bootstrap 4.3.1 theme for SilverStripe 4](https://raw.githubusercontent.com/dpezer/ss-bs/master/ss-bs.png)
+![Bootstrap 4.5.2 theme for SilverStripe 4](https://raw.githubusercontent.com/dpezer/ss-bs/master/ss-bs.png)
 
 ### Requirements
 * [SilverStripe](http://silverstripe.org/) 4.x or above (both framework and cms)
@@ -11,9 +11,9 @@
 * [Gulp](http://gulpjs.com/) (install gulp with command `npm install -g gulp`)
 
 ### Theme includes
-* [Bootstrap](https://getbootstrap.com/) v4.3.1 (Sass source files)
-* [jQuery](https://jquery.com/) 3.4.1
-* [Popper.js](https://popper.js.org/) 1.14.7
+* [Bootstrap](https://getbootstrap.com/) v4.5.2 (Sass source files)
+* [jQuery](https://jquery.com/) 3.5.1
+* [Popper.js](https://popper.js.org/) 1.16.1
 
 ### Installation Instructions
 
@@ -41,7 +41,7 @@
     Requirements::combine_files(
       'scripts.combined.js',
       [
-        'themes/ss-bs/javascript/jquery/jquery-3.4.1.js',
+        'themes/ss-bs/javascript/jquery/jquery-3.5.1.js',
         'themes/ss-bs/javascript/popper/popper.js',
         'themes/ss-bs/javascript/bootstrap/bootstrap.js'
       ]
@@ -53,5 +53,5 @@
 ### Compiling CSS
 
 * Install all required npm plugins with `npm install` command
-* Run command `gulp watch` inside `npm` folder
-* Put your CSS/SCSS files into `themes/ss-bs/sass/` and import them in `themes/ss-bs/sass/style.scss`
+* Run command `gulp` folder
+* Put your CSS/SCSS files into `themes/ss-bs/app/scss` and import them in `themes/ss-bs/app/scss/style.scss`

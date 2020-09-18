@@ -1,0 +1,39 @@
+{
+  "name": "ss-bs",
+  "version": "2.3.0",
+  "description": "Gulp starter theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "setup": "npm install",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpezer/ss-bs"
+  },
+  "keywords": [
+    "gulp",
+    "scss",
+    "css"
+  ],
+  "author": {
+    "name": "Darjan Pezer",
+    "url": "https://pezer.si"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpezer/ss-bs/issues"
+  },
+  "homepage": "https://github.com/dpezer/ss-bs",
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-notify": "^3.2.0"
+  }
+}

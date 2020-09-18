@@ -5,8 +5,8 @@
 
 ### Node modules and sass ###
 .sass-cache
-npm/node_modules
 
 # Ignore compiled files
 css/style.css.map
 css/bootstrap/*
+node_modules/
